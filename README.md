@@ -10,6 +10,10 @@ The following projects are included in this repository:
 
 This project presents a animated line chart that visualizes the daily arrivals of forcibly displaced from Sudan to neighboring countries. It has been [tweeted](https://twitter.com/RaoufMazou/status/1658811750458744833?s=20) by the Assistant High Commissioner for Refugees (Operations).
 
+### 2021-11-idp-top10
+
+Animated bar chart race of the top 10 IDP crisis from 2010 to 2020.
+
 ## Contributing
 
 As these projects are final products, contributions to this repository are not expected. However, if you have suggestions, please feel free to open an issue or submit a pull request.
