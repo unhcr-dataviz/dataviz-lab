@@ -1,6 +1,6 @@
 # dataviz-lab
 
-This repository contains a collection of small data visualization projects from IPDA. Each project is stored in a separate subfolder named with the format "year-month-projectname". These projects are fully developed and are good examples of UNHCR visualizations. For proper recommendations on making data visualizations for UNHCR, please visit the [UNHCR data visualization platform](https://dataviz.unhcr.org/).
+This repository contains a collection of small data visualization projects by IPDA. Each project is stored in a separate sub folder named with the format "year-month-projectname", for web-based projects follow the same logic but put it within the [`/docs`](/docs) folder so it will be accessible online. These projects are fully developed and are good examples of UNHCR visualizations. For proper recommendations on making data visualizations for UNHCR, please visit the [UNHCR data visualization platform](https://dataviz.unhcr.org/).
 
 ## Projects
 
