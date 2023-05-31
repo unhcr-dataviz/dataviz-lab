@@ -1,0 +1,302 @@
+#g-eth_animation-box ,
+	#g-eth_animation-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-eth_animation-box p {
+		margin:0;
+	}
+	#g-eth_animation-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-eth_animation-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-eth_animation-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-eth_animation-box .g-aiPointText p { white-space: nowrap; }
+	#g-eth_animation-_360 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-eth_animation-_360 p {
+		font-family:Lato;
+		font-weight:400;
+		line-height:8px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:7px;
+		text-align:left;
+		color:rgb(128,129,132);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-eth_animation-_360 .g-pstyle0 {
+		font-weight:700;
+		line-height:6px;
+		height:6px;
+		letter-spacing:0.25em;
+		font-size:4px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_360 .g-pstyle1 {
+		font-weight:700;
+		line-height:5px;
+		height:5px;
+		letter-spacing:0.3em;
+		font-size:9px;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_360 .g-pstyle2 {
+		line-height:7px;
+		height:7px;
+		font-size:6px;
+		color:rgb(50,50,50);
+	}
+	#g-eth_animation-_360 .g-pstyle3 {
+		font-weight:700;
+		line-height:10px;
+		height:10px;
+		font-size:8px;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_360 .g-pstyle4 {
+		font-weight:700;
+		height:8px;
+		letter-spacing:0.1em;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_360 .g-pstyle5 {
+		font-weight:700;
+		line-height:4px;
+		height:4px;
+		font-size:4px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_360 .g-pstyle6 {
+		font-weight:700;
+		line-height:9px;
+		height:9px;
+		text-transform:uppercase;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_360 .g-pstyle7 {
+		line-height:4px;
+		height:4px;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_360 .g-pstyle8 {
+		font-weight:700;
+		line-height:4px;
+		height:4px;
+		text-transform:uppercase;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_360 .g-pstyle9 {
+		height:8px;
+	}
+	#g-eth_animation-_360 .g-pstyle10 {
+		line-height:7px;
+		height:7px;
+		font-size:6px;
+		color:rgb(0,0,0);
+	}
+	#g-eth_animation-_360 .g-cstyle0 {
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_480 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-eth_animation-_480 p {
+		font-family:Lato;
+		font-weight:400;
+		line-height:10px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:8px;
+		text-align:left;
+		color:rgb(128,129,132);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-eth_animation-_480 .g-pstyle0 {
+		font-weight:700;
+		line-height:7px;
+		height:7px;
+		letter-spacing:0.25em;
+		font-size:4px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_480 .g-pstyle1 {
+		line-height:7px;
+		height:7px;
+		font-size:6px;
+		color:rgb(50,50,50);
+	}
+	#g-eth_animation-_480 .g-pstyle2 {
+		font-weight:700;
+		line-height:8px;
+		height:8px;
+		letter-spacing:0.1em;
+		font-size:7px;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_480 .g-pstyle3 {
+		font-weight:700;
+		line-height:4px;
+		height:4px;
+		font-size:4px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_480 .g-pstyle4 {
+		font-weight:700;
+		height:10px;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_480 .g-pstyle5 {
+		font-weight:700;
+		line-height:6px;
+		height:6px;
+		letter-spacing:0.3em;
+		font-size:9px;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_480 .g-pstyle6 {
+		font-weight:700;
+		line-height:5px;
+		height:5px;
+		text-transform:uppercase;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_480 .g-pstyle7 {
+		line-height:5px;
+		height:5px;
+		font-size:7px;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_480 .g-pstyle8 {
+		height:10px;
+	}
+	#g-eth_animation-_480 .g-pstyle9 {
+		line-height:7px;
+		height:7px;
+		font-size:6px;
+		color:rgb(0,0,0);
+	}
+	#g-eth_animation-_480 .g-cstyle0 {
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_640 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-eth_animation-_640 p {
+		font-family:Lato;
+		font-weight:400;
+		line-height:10px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:8px;
+		text-align:left;
+		color:rgb(128,129,132);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-eth_animation-_640 .g-pstyle0 {
+		font-weight:700;
+		line-height:8px;
+		height:8px;
+		letter-spacing:0.25em;
+		font-size:5px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_640 .g-pstyle1 {
+		line-height:8px;
+		height:8px;
+		font-size:7px;
+		color:rgb(50,50,50);
+	}
+	#g-eth_animation-_640 .g-pstyle2 {
+		font-weight:700;
+		line-height:9px;
+		height:9px;
+		letter-spacing:0.1em;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_640 .g-pstyle3 {
+		font-weight:700;
+		line-height:5px;
+		height:5px;
+		font-size:5px;
+		text-transform:uppercase;
+	}
+	#g-eth_animation-_640 .g-pstyle4 {
+		font-weight:700;
+		height:10px;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_640 .g-pstyle5 {
+		font-weight:700;
+		line-height:8px;
+		height:8px;
+		letter-spacing:0.3em;
+		font-size:10px;
+		text-transform:uppercase;
+		color:rgb(88,89,91);
+	}
+	#g-eth_animation-_640 .g-pstyle6 {
+		font-weight:700;
+		line-height:7px;
+		height:7px;
+		text-transform:uppercase;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_640 .g-pstyle7 {
+		line-height:7px;
+		height:7px;
+		font-size:7px;
+		color:rgb(166,168,171);
+	}
+	#g-eth_animation-_640 .g-pstyle8 {
+		height:10px;
+	}
+	#g-eth_animation-_640 .g-pstyle9 {
+		line-height:7px;
+		height:7px;
+		font-size:6px;
+		color:rgb(0,0,0);
+	}
+	#g-eth_animation-_640 .g-cstyle0 {
+		text-transform:uppercase;
+	}
