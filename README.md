@@ -6,21 +6,13 @@ This repository contains a collection of small data visualization projects by IP
 
 The following projects are included in this repository:
 
-### [2023-05-eth-displacement](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/docs/2023-05-eth-displacement-animation)
+- **[2023-05-eth-displacement](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/docs/2023-05-eth-displacement-animation)**: [Map animation](https://unhcr-dataviz.github.io/dataviz-lab/2023-05-eth-displacement-animation/) of displacement from Somalia to eastern part of Ethiopia. 
 
-[Map animation](https://unhcr-dataviz.github.io/dataviz-lab/2023-05-eth-displacement-animation/) of displacement from Somalia to eastern part of Ethiopia. 
+- **[2023-05-sdn-core](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2023-05-sdn-core)**: This project presents a animated line chart that visualizes the daily arrivals of forcibly displaced from Sudan to neighboring countries. It has been [tweeted](https://twitter.com/RaoufMazou/status/1658811750458744833?s=20) by the Assistant High Commissioner for Refugees (Operations).
 
-### [2023-05-sdn-core](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2023-05-sdn-core)
+- **[2022-11-ref-top15](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2022-11-ref-top15)**: Animated bar chart race of the top 15 largest number of refugees by country of origin and asylum from 2012 to 2022.
 
-This project presents a animated line chart that visualizes the daily arrivals of forcibly displaced from Sudan to neighboring countries. It has been [tweeted](https://twitter.com/RaoufMazou/status/1658811750458744833?s=20) by the Assistant High Commissioner for Refugees (Operations).
-
-### [2022-11-ref-top15](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2022-11-ref-top15)
-
-Animated bar chart race of the top 15 largest number of refugees by country of origin and asylum from 2012 to 2022.
-
-### [2021-11-idp-top10](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2021-11-idp-top10)
-
-Animated bar chart race of the top 10 IDP crisis from 2010 to 2020.
+- **[2021-11-idp-top10](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2021-11-idp-top10)**: Animated bar chart race of the top 10 IDP crisis from 2010 to 2020.
 
 ## Contributing
 
