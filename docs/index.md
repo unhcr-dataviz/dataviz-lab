@@ -1,3 +1,3 @@
-# Listing of web-based projects:
+### Listing of web-based projects:
 
-- Include project URL
+- Include project Name with URL as a link
