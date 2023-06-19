@@ -6,6 +6,8 @@ This repository contains a collection of small data visualization projects by IP
 
 The following projects are included in this repository:
 
+- **[2023-06-gt2022](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2023-06-gt2022)**: A chord diagram representing flows of refugees, people in refugee-like situations and other people in need of international protection from their region of origin to their region of asylum | 1975 – 2022.
+
 - **[2023-05-eth-displacement](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/docs/2023-05-eth-displacement-animation)**: [Map animation](https://unhcr-dataviz.github.io/dataviz-lab/2023-05-eth-displacement-animation/) of displacement from Somalia to eastern part of Ethiopia. 
 
 - **[2023-05-sdn-core](https://github.com/unhcr-dataviz/dataviz-lab/tree/main/2023-05-sdn-core)**: This project presents a animated line chart that visualizes the daily arrivals of forcibly displaced from Sudan to neighboring countries. It has been [tweeted](https://twitter.com/RaoufMazou/status/1658811750458744833?s=20) by the Assistant High Commissioner for Refugees (Operations).
