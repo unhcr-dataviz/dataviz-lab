@@ -65,14 +65,14 @@ theme_plot <- df_plot |>
              color = country)) +
   geom_line(linewidth = 0.75) +
   geom_point() +
-  labs(title = "New arrivals from Sudan",
+  labs(title = "New refugee and returnee arrivals from Sudan",
        caption = caption) +
   unhcrthemes::scale_color_unhcr_d(nmax = 9, order = c(3, 1, 2, 5, 7, 9)) +
   scale_y_continuous(labels = scales::label_number(
     scale_cut = scales::cut_short_scale()),
     position = "right",
     expand = expansion(mult = c(0, 0.05)),
-    limits = c(NA, 500e3),
+    # limits = c(NA, 500e3),
     # adjust breaks if needed
     # breaks = seq(0, 500e3, 100e3)
   ) +
