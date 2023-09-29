@@ -18,7 +18,7 @@ ret_raw <- read_excel(here::here(
 )) |>
     janitor::clean_names()
 
-glimpse(ret_raw)
+# glimpse(ret_raw)
 
 # wrangle data ------------------------------------------------------------
 # calculate returnees by month
@@ -88,10 +88,10 @@ camcorder::gg_record(
 
 # plot --------------------------------------------------------------------
 # title
-title <- "Burundian refugees return home"
+title <- "Burundian Refugees Returning Home"
 
 # subtitle
-subtitle <- "Cumulative returns to Burundi, by country of asylum (2017-2023)"
+subtitle <- "By Country of Asylum - Since 2017"
 
 # caption
 other_country <-
@@ -115,8 +115,15 @@ other_country <- paste0(
     collapse = ", "
 )
 
+other_tot <- ret_cumul |>
+    filter(top_coa == "Others") |>
+    summarise(
+        ret_sum = max(cum_ret)
+    ) |>
+    pull(ret_sum)
+
 caption <- paste0(
-    "A limited number of retunees come from the following countries: ",
+    other_tot, " returnees came back from the following countries: ",
     other_country, ".<br>",
     "Source: UNHCR Burundi - © UNHCR, The UN Refugee Agency"
 )
@@ -180,6 +187,11 @@ ggplot(ret_cumul) +
         hjust = 0,
         lineheight = 1,
         fontface = "bold",
+    ) +
+    annotate("text",
+        x = as.Date("2023-08-21"), y = 219e3,
+        label = "Total returns\nsince 2017\n219.1K", hjust = 0,
+        vjust = 0, lineheight = 1, fontface = "bold", size = 9 / .pt
     ) +
     scale_fill_unhcr_d(
         order = c(3, 5, 6, 2, 4, 1)
