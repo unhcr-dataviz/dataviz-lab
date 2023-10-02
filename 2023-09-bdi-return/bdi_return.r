@@ -1,21 +1,25 @@
 # Burundi returns | Graph type
 # Data source: EHAGL DIMA
 
-local_folder <- "2023-09-bdi-return"
-
-# load packages -----------------------------------------------------------
+# setup -----------------------------------------------------------
+# load packages
 library(tidyverse)
-library(readxl)
+library(ridl)
 library(scales)
 library(ragg)
 library(unhcrthemes)
 library(ggsankey)
 
+# set ridl token
+ridl::ridl_config_get()
+# set local folder
+local_folder <- "2023-09-bdi-return"
+
 # load data ---------------------------------------------------------------
-ret_raw <- read_excel(here::here(
-    local_folder,
-    "Data_Masterlist_VolRep_Consolider 2021_Monthly_31_Aout_2023.xlsx"
-)) |>
+ridl_url <- "dd657014-aa18-4b44-91d1-1ac7005db802"
+
+ret_raw <- ridl::rr_show(ridl_url) |>
+    ridl::rr_read() |>
     janitor::clean_names()
 
 # glimpse(ret_raw)
