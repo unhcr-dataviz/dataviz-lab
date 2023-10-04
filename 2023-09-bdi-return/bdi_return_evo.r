@@ -1,5 +1,5 @@
-# Burundi returns | Graph type
-# Data source: EHAGL DIMA
+# Burundi returns | Alluvial plot
+# Data source: UNHCR Burundi
 
 # setup -----------------------------------------------------------
 # load packages
