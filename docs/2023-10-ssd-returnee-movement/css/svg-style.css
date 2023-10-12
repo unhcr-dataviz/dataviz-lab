@@ -51,22 +51,29 @@
 		color:rgb(89,89,92);
 	}
 	#g-returnee_movements-_480 .g-pstyle1 {
-		height:8px;
-		text-align:center;
-		text-transform:uppercase;
+		font-weight:700;
+		line-height:17px;
+		letter-spacing:0em;
+		font-size:15px;
+		color:rgb(0,0,0);
 	}
 	#g-returnee_movements-_480 .g-pstyle2 {
 		height:8px;
 		text-align:center;
+		text-transform:uppercase;
 	}
 	#g-returnee_movements-_480 .g-pstyle3 {
+		height:8px;
+		text-align:center;
+	}
+	#g-returnee_movements-_480 .g-pstyle4 {
 		font-weight:700;
 		line-height:5px;
 		height:5px;
 		letter-spacing:0.1em;
 		color:rgb(88,89,91);
 	}
-	#g-returnee_movements-_480 .g-pstyle4 {
+	#g-returnee_movements-_480 .g-pstyle5 {
 		font-weight:700;
 		line-height:10px;
 		height:10px;
@@ -74,7 +81,7 @@
 		font-size:8px;
 		color:rgb(65,65,65);
 	}
-	#g-returnee_movements-_480 .g-pstyle5 {
+	#g-returnee_movements-_480 .g-pstyle6 {
 		height:8px;
 		letter-spacing:0.1em;
 		color:rgb(88,89,91);
@@ -109,6 +116,16 @@
 		color:rgb(89,89,92);
 	}
 	#g-returnee_movements-_700 .g-pstyle1 {
+		line-height:17px;
+		font-size:15px;
+		color:rgb(0,0,0);
+	}
+	#g-returnee_movements-_700 .g-pstyle2 {
+		line-height:21px;
+		font-size:21px;
+		color:rgb(0,0,0);
+	}
+	#g-returnee_movements-_700 .g-pstyle3 {
 		font-weight:400;
 		line-height:12px;
 		height:12px;
@@ -118,7 +135,7 @@
 		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
-	#g-returnee_movements-_700 .g-pstyle2 {
+	#g-returnee_movements-_700 .g-pstyle4 {
 		font-weight:400;
 		line-height:12px;
 		height:12px;
@@ -127,12 +144,12 @@
 		text-align:center;
 		color:rgb(128,128,131);
 	}
-	#g-returnee_movements-_700 .g-pstyle3 {
+	#g-returnee_movements-_700 .g-pstyle5 {
 		height:10px;
 		text-align:center;
 		text-transform:uppercase;
 	}
-	#g-returnee_movements-_700 .g-pstyle4 {
+	#g-returnee_movements-_700 .g-pstyle6 {
 		font-weight:400;
 		line-height:15px;
 		height:15px;
@@ -142,13 +159,13 @@
 		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
-	#g-returnee_movements-_700 .g-pstyle5 {
+	#g-returnee_movements-_700 .g-pstyle7 {
 		line-height:8px;
 		height:8px;
 		letter-spacing:0.1em;
 		font-size:9px;
 	}
-	#g-returnee_movements-_700 .g-pstyle6 {
+	#g-returnee_movements-_700 .g-pstyle8 {
 		font-weight:400;
 		line-height:11px;
 		height:11px;
@@ -184,14 +201,9 @@
 		color:rgb(89,89,92);
 	}
 	#g-returnee_movements-_960 .g-pstyle1 {
-		font-weight:400;
-		line-height:16px;
-		height:16px;
-		letter-spacing:0.25em;
-		font-size:13px;
-		text-align:center;
-		text-transform:uppercase;
-		color:rgb(128,128,131);
+		line-height:28px;
+		font-size:23px;
+		color:rgb(0,0,0);
 	}
 	#g-returnee_movements-_960 .g-pstyle2 {
 		font-weight:400;
@@ -200,20 +212,30 @@
 		letter-spacing:0.25em;
 		font-size:13px;
 		text-align:center;
+		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_960 .g-pstyle3 {
+		font-weight:400;
+		line-height:16px;
+		height:16px;
+		letter-spacing:0.25em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(128,128,131);
+	}
+	#g-returnee_movements-_960 .g-pstyle4 {
 		height:14px;
 		text-align:center;
 		text-transform:uppercase;
 	}
-	#g-returnee_movements-_960 .g-pstyle4 {
+	#g-returnee_movements-_960 .g-pstyle5 {
 		line-height:11px;
 		height:11px;
 		letter-spacing:0.1em;
 		font-size:11px;
 	}
-	#g-returnee_movements-_960 .g-pstyle5 {
+	#g-returnee_movements-_960 .g-pstyle6 {
 		font-weight:400;
 		line-height:15px;
 		height:15px;
