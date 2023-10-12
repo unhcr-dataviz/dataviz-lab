@@ -18,7 +18,10 @@ function animatePaths(pathInfo) {
         .on("end", () => {
           // Restart the animation if it's the last one in the array
           if (index === pathInfo.length - 1) {
-            animatePaths(pathInfo);
+            // Delay for 2 seconds before restarting the animation
+            setTimeout(() => {
+              animatePaths(pathInfo);
+            }, 3000);
           }
         });
     });

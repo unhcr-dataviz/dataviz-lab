@@ -25,17 +25,17 @@
 	}
 	#g-returnee_movements-_480 p {
 		font-family:Lato;
-		font-weight:700;
+		font-weight:400;
 		line-height:8px;
 		height:auto;
 		filter:alpha(opacity=100);
 		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 		opacity:1;
-		letter-spacing:0em;
+		letter-spacing:0.2em;
 		font-size:7px;
 		text-align:left;
 		text-transform:none;
-		color:rgb(88,89,91);
+		color:rgb(128,128,131);
 		padding-bottom:0;
 		padding-top:0;
 		mix-blend-mode:normal;
@@ -43,55 +43,41 @@
 		position:static;
 	}
 	#g-returnee_movements-_480 .g-pstyle0 {
+		font-weight:700;
 		line-height:11px;
 		height:11px;
+		letter-spacing:0em;
 		font-size:9px;
 		color:rgb(89,89,92);
 	}
 	#g-returnee_movements-_480 .g-pstyle1 {
-		font-weight:400;
 		height:8px;
-		letter-spacing:0.25em;
-		font-size:8px;
+		text-align:center;
 		text-transform:uppercase;
-		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_480 .g-pstyle2 {
-		font-weight:400;
 		height:8px;
-		letter-spacing:0.25em;
-		font-size:8px;
-		color:rgb(128,128,131);
+		text-align:center;
 	}
 	#g-returnee_movements-_480 .g-pstyle3 {
-		height:8px;
-		text-align:center;
-		text-transform:uppercase;
-	}
-	#g-returnee_movements-_480 .g-pstyle4 {
-		font-weight:400;
-		height:8px;
-		letter-spacing:0.25em;
-		font-size:8px;
-		text-align:center;
-		text-transform:uppercase;
-		color:rgb(128,128,131);
-	}
-	#g-returnee_movements-_480 .g-pstyle5 {
+		font-weight:700;
 		line-height:5px;
 		height:5px;
 		letter-spacing:0.1em;
+		color:rgb(88,89,91);
 	}
-	#g-returnee_movements-_480 .g-pstyle6 {
+	#g-returnee_movements-_480 .g-pstyle4 {
+		font-weight:700;
 		line-height:10px;
 		height:10px;
+		letter-spacing:0em;
 		font-size:8px;
 		color:rgb(65,65,65);
 	}
-	#g-returnee_movements-_480 .g-pstyle7 {
-		font-weight:400;
+	#g-returnee_movements-_480 .g-pstyle5 {
 		height:8px;
 		letter-spacing:0.1em;
+		color:rgb(88,89,91);
 	}
 	#g-returnee_movements-_700 {
 		position:relative;
@@ -100,7 +86,7 @@
 	#g-returnee_movements-_700 p {
 		font-family:Lato;
 		font-weight:700;
-		line-height:8px;
+		line-height:10px;
 		height:auto;
 		filter:alpha(opacity=100);
 		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -126,8 +112,9 @@
 		font-weight:400;
 		line-height:12px;
 		height:12px;
-		letter-spacing:0.25em;
-		font-size:11px;
+		letter-spacing:0.2em;
+		font-size:10px;
+		text-align:center;
 		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
@@ -135,26 +122,28 @@
 		font-weight:400;
 		line-height:12px;
 		height:12px;
-		letter-spacing:0.25em;
-		font-size:11px;
+		letter-spacing:0.2em;
+		font-size:10px;
+		text-align:center;
 		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_700 .g-pstyle3 {
-		height:8px;
+		height:10px;
 		text-align:center;
 		text-transform:uppercase;
 	}
 	#g-returnee_movements-_700 .g-pstyle4 {
 		font-weight:400;
-		line-height:12px;
-		height:12px;
-		letter-spacing:0.25em;
-		font-size:11px;
+		line-height:15px;
+		height:15px;
+		letter-spacing:0.2em;
+		font-size:10px;
 		text-align:center;
 		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_700 .g-pstyle5 {
+		line-height:8px;
 		height:8px;
 		letter-spacing:0.1em;
 		font-size:9px;
@@ -172,13 +161,13 @@
 	#g-returnee_movements-_960 p {
 		font-family:Lato;
 		font-weight:700;
-		line-height:11px;
+		line-height:14px;
 		height:auto;
 		filter:alpha(opacity=100);
 		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 		opacity:1;
 		letter-spacing:0em;
-		font-size:9px;
+		font-size:12px;
 		text-align:left;
 		text-transform:none;
 		color:rgb(88,89,91);
@@ -189,49 +178,42 @@
 		position:static;
 	}
 	#g-returnee_movements-_960 .g-pstyle0 {
-		line-height:13px;
-		height:13px;
-		font-size:11px;
+		line-height:16px;
+		height:16px;
+		font-size:13px;
 		color:rgb(89,89,92);
 	}
 	#g-returnee_movements-_960 .g-pstyle1 {
 		font-weight:400;
-		line-height:15px;
-		height:15px;
+		line-height:16px;
+		height:16px;
 		letter-spacing:0.25em;
 		font-size:13px;
+		text-align:center;
 		text-transform:uppercase;
 		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_960 .g-pstyle2 {
 		font-weight:400;
-		line-height:15px;
-		height:15px;
+		line-height:16px;
+		height:16px;
 		letter-spacing:0.25em;
 		font-size:13px;
+		text-align:center;
 		color:rgb(128,128,131);
 	}
 	#g-returnee_movements-_960 .g-pstyle3 {
-		height:11px;
+		height:14px;
 		text-align:center;
 		text-transform:uppercase;
 	}
 	#g-returnee_movements-_960 .g-pstyle4 {
-		font-weight:400;
-		line-height:15px;
-		height:15px;
-		letter-spacing:0.25em;
-		font-size:13px;
-		text-align:center;
-		text-transform:uppercase;
-		color:rgb(128,128,131);
-	}
-	#g-returnee_movements-_960 .g-pstyle5 {
+		line-height:11px;
 		height:11px;
 		letter-spacing:0.1em;
 		font-size:11px;
 	}
-	#g-returnee_movements-_960 .g-pstyle6 {
+	#g-returnee_movements-_960 .g-pstyle5 {
 		font-weight:400;
 		line-height:15px;
 		height:15px;
