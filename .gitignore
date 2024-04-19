@@ -50,3 +50,5 @@ temp-plot/
 
 # Not sharable files
 2023-09-bdi-return/*.xlsx
+
+.vscode
