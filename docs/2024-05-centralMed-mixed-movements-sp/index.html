@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CentralMed mixed movements - sp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoidW5oY3IiLCJhIjoiOUQzQ2dnbyJ9.6ghfFmvxpu7HvHzXci_ogw';
+      const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/unhcr/clyx47b0x009z01ph9mbvf3ff',
+          center: [20, 19],
+          zoom: 3.4
+      });
+  
+      map.on('load', () => {
+          const layers = map.getStyle().layers;
+          let firstSymbolId;
+          for (const layer of layers) {
+              if (layer.type === 'symbol') {
+                  firstSymbolId = layer.id;
+                  break;
+              }
+          }
+  
+          // Define colors for each route
+          const colors = ['#18375F'];
+  
+          // Add source and layers for each JSON file
+          const jsonFiles = ['land_routes.geojson'];
+          jsonFiles.forEach((file, index) => {
+              const color = colors[index];
+  
+              map.addSource(`line-${index}`, {
+                  type: 'geojson',
+                  data: file
+              });
+  
+              map.addLayer({
+                  type: 'line',
+                  source: `line-${index}`,
+                  id: `line-background-${index}`,
+                  paint: {
+                      'line-color': color,
+                      'line-width': 3,
+                      'line-opacity': 0.3
+                  }
+              },
+              firstSymbolId
+              );
+  
+              map.addLayer({
+                  type: 'line',
+                  source: `line-${index}`,
+                  id: `line-dashed-${index}`,
+                  paint: {
+                      'line-color': color,
+                      'line-width': 3,
+                      'line-dasharray': [0, 4, 3]
+                  }
+              },
+              firstSymbolId
+              );
+          });
+  
+          const dashArraySequence = [
+              [0, 4, 3],
+              [0.5, 4, 2.5],
+              [1, 4, 2],
+              [1.5, 4, 1.5],
+              [2, 4, 1],
+              [2.5, 4, 0.5],
+              [3, 4, 0],
+              [0, 0.5, 3, 3.5],
+              [0, 1, 3, 3],
+              [0, 1.5, 3, 2.5],
+              [0, 2, 3, 2],
+              [0, 2.5, 3, 1.5],
+              [0, 3, 3, 1],
+              [0, 3.5, 3, 0.5]
+          ];
+  
+          let step = 0;
+  
+          function animateDashArray(timestamp) {
+              const newStep = parseInt(
+                  (timestamp / 80) % dashArraySequence.length
+              );
+  
+              if (newStep !== step) {
+                  jsonFiles.forEach((file, index) => {
+                      map.setPaintProperty(
+                          `line-dashed-${index}`,
+                          'line-dasharray',
+                          dashArraySequence[step]
+                      );
+                  });
+                  step = newStep;
+              }
+  
+              requestAnimationFrame(animateDashArray);
+          }
+  
+          animateDashArray(0);
+      });
+    </script>
+</body>
+</html>
